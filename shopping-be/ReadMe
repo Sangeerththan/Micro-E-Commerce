@@ -1,0 +1,4 @@
+docker build -t shopping .
+docker run -d -p 8085:8080 -t shopping shopping
+
+docker run  --network="host" -t test4 -p 8085:8081
